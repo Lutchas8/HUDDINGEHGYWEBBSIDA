@@ -5,3 +5,20 @@
 header{
     display: flex;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerImg{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+
+.HGY{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
