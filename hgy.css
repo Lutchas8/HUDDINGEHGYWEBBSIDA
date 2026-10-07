@@ -13,12 +13,20 @@ header{
 
 .headerImg{
     display: flex;
-    width: 200px;
-    height: 100px;
+    width: 175px;
+    height: 75px;
+    padding-left: 182px;
 }
 
 .HGY{
     display: flex;
-    width: 200px;
-    height: 100px;
+    width: 450px;
+    height: 75px;
+    padding-left: 20px;
+}
+h5{
+    font-size: 450%;
+    color:rgb(226, 228, 230);
+    margin:0%;
+    padding-left: 40px;
 }
