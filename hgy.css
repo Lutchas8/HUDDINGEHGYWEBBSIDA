@@ -30,3 +30,17 @@ h5{
     margin:0%;
     padding-left: 40px;
 }
+.hjälp{
+    display: flex;
+    padding-left: 740px;
+}
+.sökbar{
+    display: flex;
+    background-color:rgb(229, 242, 244);
+    height: 50px;
+}
+.sökcontainer{
+    display: flex;
+    background-color:rgb(229, 242, 244);
+    height: 99px;
+}
