@@ -26,13 +26,13 @@ header{
 }
 h5{
     font-size: 450%;
-    color:rgb(226, 228, 230);
+    color:rgba(241, 242, 242);
     margin:0%;
     padding-left: 40px;
 }
 .hjälp{
     display: flex;
-    padding-left: 740px;
+    padding-left: 670px;
 }
 .sökbar{
     display: flex;
@@ -41,6 +41,40 @@ h5{
 }
 .sökcontainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:rgb(229, 242, 244);
     height: 99px;
+}
+
+.sökfält{
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.snesteck{
+    rotate: -10deg;
+}
+
+.skrattandetjej{
+    display: flex;
+    height: 420px;
+    padding-left: 325px;
+    width: 1250px;
+}
+.button{
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 130, 150);
+    width: 70px;
+    
+}
+
+.informationsida{
+    justify-content: center;
+    align-items: center;
+}
+.sidornagrå{
+    background-color:rgba(241, 242, 242)
 }
