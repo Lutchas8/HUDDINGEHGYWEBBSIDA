@@ -51,6 +51,8 @@ h5{
     justify-content: center;
     align-items: center;
     width: 800px;
+    outline: none;
+    border: none;
 }
 
 .snesteck{
