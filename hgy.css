@@ -1,4 +1,3 @@
-
 #div1{
     width:20%;
 }
@@ -6,10 +5,12 @@ header{
     display: flex;
 }
 
+
 .container{
     display: flex;
     flex-direction: row;
 }
+
 
 .headerImg{
     display: flex;
@@ -17,6 +18,7 @@ header{
     height: 75px;
     padding-left: 182px;
 }
+
 
 .HGY{
     display: flex;
@@ -47,17 +49,21 @@ h5{
     height: 99px;
 }
 
+
 .sökfält{
     justify-content: center;
     align-items: center;
     width: 800px;
     outline: none;
     border: none;
+    font-size: 20px;
 }
+
 
 .snesteck{
     rotate: -10deg;
 }
+
 
 .bild{
     display: flex;
@@ -73,15 +79,17 @@ h5{
     background-color:rgba(0, 130, 150);
     width: 10%;
     border: none;
-    
+   
 }
+
 
 .yttrebox{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
 }
+
 
 .inrebox{
     flex-direction: column;
@@ -92,18 +100,26 @@ h5{
     height: 100%;
 }
 
+
 .main{
-    
+   
     justify-content: center;
     align-items: center;
     background-color:rgba(239, 240, 240)
 }
 .list{
-    list-style-type: none; 
+    list-style-type: none;
+    width: 230px;
+    margin-top: 50px;
+    font-size: 25px;
+    border-top: 7px solid rgba(0, 130, 150);
+    margin-left: 125px;
+    
 }
 .sökikon{
     padding-top: 3px;
     width: 46px;
+
 
 }
 .inretext{
@@ -111,8 +127,41 @@ h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 500px;
+    max-width: 700px;
+    font-size: 20px;
+    padding-left: 200px;
+    
 }
 .inrelista{
+    width: fit-content;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
     
+}
+.öppettider{
+    list-style-type: none;
+}
+.extra{
+    list-style-type: none;
+    color:rgba(0, 130, 150);
+}
+.huddingegrön{
+    display: flex;
+    background-color:rgba(0, 130, 150);
+    height: 75px;
+}
+.huddingeblå{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding-left: 100px;
+}
+li{
+    border-bottom: 1px solid rgb(185, 188, 189);
+}
+.allinfo{
+    display:flex;
 }
