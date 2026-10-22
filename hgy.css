@@ -26,9 +26,12 @@ header{
     height: 75px;
     padding-left: 20px;
 }
-h5{
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 450%;
-    color:rgba(241, 242, 242);
+    color:rgb(229, 242, 244);
     margin:0%;
     padding-left: 40px;
 }
@@ -111,10 +114,15 @@ h5{
     list-style-type: none;
     width: 230px;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 20px;
     border-top: 7px solid rgba(0, 130, 150);
     margin-left: 125px;
     
+}
+.list li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(185, 188, 189);
 }
 .sökikon{
     padding-top: 3px;
@@ -126,9 +134,8 @@ h5{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 700px;
-    font-size: 20px;
+    max-width: 800px;
+    font-size: 25px;
     padding-left: 200px;
     
 }
@@ -138,6 +145,7 @@ h5{
     margin: 0;
     padding: 0;
     padding-left: 25px;
+    border-bottom: 1px solid rgb(185, 188, 189);
     
 }
 .öppettider{
@@ -146,6 +154,10 @@ h5{
 .extra{
     list-style-type: none;
     color:rgba(0, 130, 150);
+}
+
+.extra li{
+    display: flex;
 }
 .huddingegrön{
     display: flex;
@@ -159,9 +171,48 @@ h5{
     width: 400px;
     padding-left: 100px;
 }
-li{
-    border-bottom: 1px solid rgb(185, 188, 189);
-}
+
 .allinfo{
     display:flex;
+}
+.vklass{
+    background-color:rgba(241, 242, 242)
+
+}
+.bildvklass{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    padding-left: 190px;
+}
+.vklasstext{
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255);
+    font-size: 25px;
+    
+}
+.kontaktinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 130, 150);
+    list-style-type: none;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    padding-left: 200px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:rgba(0, 130, 150);
+    background-color:rgba(255, 255, 255);
 }
