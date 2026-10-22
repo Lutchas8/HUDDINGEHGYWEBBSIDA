@@ -177,7 +177,14 @@ h6{
 }
 .vklass{
     background-color:rgba(241, 242, 242)
-
+}
+.inrevklassbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgba(241, 242, 242);
+    width: 80%;
+    height: 100%;
 }
 .bildvklass{
     display: flex;
@@ -185,20 +192,13 @@ h6{
     height: 700px;
     padding-left: 190px;
 }
-.vklasstext{
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(255, 255, 255);
-    font-size: 25px;
-    
-}
 .kontaktinfo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color:rgba(0, 130, 150);
     list-style-type: none;
+    background-color:rgba(255, 255, 255);
+
 }
 h5{
     display: flex;
@@ -216,3 +216,26 @@ h4{
     color:rgba(0, 130, 150);
     background-color:rgba(255, 255, 255);
 }
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+}
+.kontaktbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(241, 242, 242)
+}
+.kontaktinfo li{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(185, 188, 189);
+}
+.inrevklassbox
